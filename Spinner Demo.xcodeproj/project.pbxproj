@@ -7,23 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B7790E3282C1495009E537F /* StrokeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7790E2282C1495009E537F /* StrokeAnimation.swift */; };
+		5B7790E6282CEE65009E537F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5B7790E5282CEE65009E537F /* SnapKit */; };
+		5B7790E8282CF9BC009E537F /* FrameAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7790E7282CF9BC009E537F /* FrameAnimation.swift */; };
+		5B7790EA282CFC3F009E537F /* HueSpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7790E9282CFC3F009E537F /* HueSpinnerView.swift */; };
+		5B7790EF282D870F009E537F /* RotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7790EE282D870F009E537F /* RotationAnimation.swift */; };
 		5BA74AE72821097E0088ABBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA74AE62821097E0088ABBC /* AppDelegate.swift */; };
 		5BA74AE92821097E0088ABBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA74AE82821097E0088ABBC /* SceneDelegate.swift */; };
 		5BA74AEB2821097E0088ABBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA74AEA2821097E0088ABBC /* ViewController.swift */; };
-		5BA74AEE2821097E0088ABBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA74AEC2821097E0088ABBC /* Main.storyboard */; };
 		5BA74AF02821097F0088ABBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA74AEF2821097F0088ABBC /* Assets.xcassets */; };
 		5BA74AF32821097F0088ABBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA74AF12821097F0088ABBC /* LaunchScreen.storyboard */; };
+		5BDE4D0928210D9C00C6CEE6 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDE4D0828210D9C00C6CEE6 /* SpinnerView.swift */; };
+		5BDE4D0D282113C300C6CEE6 /* SpinnerShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDE4D0C282113C300C6CEE6 /* SpinnerShapeLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B7790E2282C1495009E537F /* StrokeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeAnimation.swift; sourceTree = "<group>"; };
+		5B7790E7282CF9BC009E537F /* FrameAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAnimation.swift; sourceTree = "<group>"; };
+		5B7790E9282CFC3F009E537F /* HueSpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueSpinnerView.swift; sourceTree = "<group>"; };
+		5B7790EE282D870F009E537F /* RotationAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationAnimation.swift; sourceTree = "<group>"; };
 		5BA74AE32821097E0088ABBC /* Spinner Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spinner Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA74AE62821097E0088ABBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BA74AE82821097E0088ABBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5BA74AEA2821097E0088ABBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5BA74AED2821097E0088ABBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BA74AEF2821097F0088ABBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BA74AF22821097F0088ABBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BA74AF42821097F0088ABBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BDE4D0828210D9C00C6CEE6 /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		5BDE4D0C282113C300C6CEE6 /* SpinnerShapeLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerShapeLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B7790E6282CEE65009E537F /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +68,28 @@
 		5BA74AE52821097E0088ABBC /* Spinner Demo */ = {
 			isa = PBXGroup;
 			children = (
+				5BDE4D0728210D8800C6CEE6 /* Circular Spinner */,
 				5BA74AE62821097E0088ABBC /* AppDelegate.swift */,
 				5BA74AE82821097E0088ABBC /* SceneDelegate.swift */,
 				5BA74AEA2821097E0088ABBC /* ViewController.swift */,
-				5BA74AEC2821097E0088ABBC /* Main.storyboard */,
 				5BA74AEF2821097F0088ABBC /* Assets.xcassets */,
 				5BA74AF12821097F0088ABBC /* LaunchScreen.storyboard */,
 				5BA74AF42821097F0088ABBC /* Info.plist */,
 			);
 			path = "Spinner Demo";
+			sourceTree = "<group>";
+		};
+		5BDE4D0728210D8800C6CEE6 /* Circular Spinner */ = {
+			isa = PBXGroup;
+			children = (
+				5BDE4D0828210D9C00C6CEE6 /* SpinnerView.swift */,
+				5B7790EE282D870F009E537F /* RotationAnimation.swift */,
+				5BDE4D0C282113C300C6CEE6 /* SpinnerShapeLayer.swift */,
+				5B7790E2282C1495009E537F /* StrokeAnimation.swift */,
+				5B7790E7282CF9BC009E537F /* FrameAnimation.swift */,
+				5B7790E9282CFC3F009E537F /* HueSpinnerView.swift */,
+			);
+			path = "Circular Spinner";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +108,9 @@
 			dependencies = (
 			);
 			name = "Spinner Demo";
+			packageProductDependencies = (
+				5B7790E5282CEE65009E537F /* SnapKit */,
+			);
 			productName = "Spinner Demo";
 			productReference = 5BA74AE32821097E0088ABBC /* Spinner Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +139,9 @@
 				Base,
 			);
 			mainGroup = 5BA74ADA2821097E0088ABBC;
+			packageReferences = (
+				5B7790E4282CEE65009E537F /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 5BA74AE42821097E0088ABBC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +158,6 @@
 			files = (
 				5BA74AF32821097F0088ABBC /* LaunchScreen.storyboard in Resources */,
 				5BA74AF02821097F0088ABBC /* Assets.xcassets in Resources */,
-				5BA74AEE2821097E0088ABBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +168,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B7790E3282C1495009E537F /* StrokeAnimation.swift in Sources */,
+				5B7790E8282CF9BC009E537F /* FrameAnimation.swift in Sources */,
 				5BA74AEB2821097E0088ABBC /* ViewController.swift in Sources */,
+				5BDE4D0928210D9C00C6CEE6 /* SpinnerView.swift in Sources */,
 				5BA74AE72821097E0088ABBC /* AppDelegate.swift in Sources */,
+				5B7790EA282CFC3F009E537F /* HueSpinnerView.swift in Sources */,
 				5BA74AE92821097E0088ABBC /* SceneDelegate.swift in Sources */,
+				5B7790EF282D870F009E537F /* RotationAnimation.swift in Sources */,
+				5BDE4D0D282113C300C6CEE6 /* SpinnerShapeLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5BA74AEC2821097E0088ABBC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BA74AED2821097E0088ABBC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5BA74AF12821097F0088ABBC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,7 +321,6 @@
 				INFOPLIST_FILE = "Spinner Demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +347,6 @@
 				INFOPLIST_FILE = "Spinner Demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +384,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5B7790E4282CEE65009E537F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5B7790E5282CEE65009E537F /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B7790E4282CEE65009E537F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5BA74ADB2821097E0088ABBC /* Project object */;
 }

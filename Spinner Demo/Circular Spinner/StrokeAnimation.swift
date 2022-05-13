@@ -1,0 +1,44 @@
+//
+//  StrokeAnimation.swift
+//  Spinner Demo
+//
+//  Created by Ali FAKIH on 11/05/2022.
+//
+
+import UIKit
+
+final class StrokeAnimation: CABasicAnimation {
+    enum State {
+        case start
+        case end
+
+        var animationKey: String {
+            switch self {
+            case .start:
+                return "strokeStart"
+            case .end:
+                return "strokeEnd"
+            }
+        }
+    }
+
+    init(
+        state: State,
+        beginTime: Double = 0.0,
+        fromValue: CGFloat,
+        toValue: CGFloat,
+        duration: Double
+    ) {
+        super.init()
+        self.beginTime = beginTime
+        self.fromValue = fromValue
+        self.toValue = toValue
+        self.duration = duration
+        keyPath = state.animationKey
+        timingFunction = .init(name: .easeInEaseOut)
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}
