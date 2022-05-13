@@ -45,4 +45,4 @@ An initializer that takes `state`, `beginTime`, `fromValue`, `toValue` and `dura
 
 the `timingFunction` of type `CAMediaTimingFunction` represents one segment of a function that defines the pacing of animation as a timing curve, in simple words, it will make our animation start and end slowly.
 
-Full tutorial exist on [MEDIUM]()
+Full tutorial exist on <img src="https://cdn-icons-png.flaticon.com/512/5968/5968885.png" width=30>[MEDIUM](https://fakiho.medium.com/custom-spinner-5592d5a13997)
